@@ -36,6 +36,6 @@ class MainView(APIView):
             "is_success":True,
             "numbers":numbers,
             "alphabets":alphabets,
-            "highest_alphabets":highest_alphabet
+            "highest_alphabet":highest_alphabet
         }
         return Response(data)
